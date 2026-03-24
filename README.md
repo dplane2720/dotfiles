@@ -16,5 +16,3 @@ After install, update `~/.gitconfig` with your name and email:
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
-
-> Miniforge/conda is not included — install separately if needed: https://github.com/conda-forge/miniforge
