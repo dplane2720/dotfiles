@@ -114,8 +114,8 @@ if [ -f "$PROFILE_FILE" ]; then
   echo "\n==> Importing Terminal profile..."
   open "$PROFILE_FILE"
   sleep 2  # give Terminal.app time to register the profile
-  defaults write com.apple.Terminal "Default Window Settings" "catppuccin-mocha"
-  defaults write com.apple.Terminal "Startup Window Settings" "catppuccin-mocha"
+  defaults write com.apple.Terminal "Default Window Settings" "Catppuccin Mocha Terminal"
+  defaults write com.apple.Terminal "Startup Window Settings" "Catppuccin Mocha Terminal"
   echo "  [done] Set Catppuccin Mocha as default Terminal profile."
 fi
 
